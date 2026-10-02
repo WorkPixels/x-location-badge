@@ -1,0 +1,38 @@
+# Privacy Policy for X Location Badge
+
+Last Updated: October 2026
+
+Summary: X Location Badge does NOT collect, transmit, store, or sell any personal data or browsing activity. All queries are made directly from your browser to official X endpoints using your active session. All filter preferences and cached locations remain strictly on your local device.
+
+1. Information We Collect
+X Location Badge is built with privacy as a foundational principle. We do not collect any personal identifiable information (PII):
+- No Browsing Tracking: We do not collect or monitor your posts, browsing history, keystrokes, or account passwords.
+- No Analytics or Telemetry: We do not use Google Analytics, cookies, telemetry, or external trackers.
+- No Private Servers: We do not operate external logging servers. Network requests only occur directly between your browser and official X/Twitter endpoints (x.com and twitter.com).
+
+2. Data Handled Locally
+To provide its core functionality, the extension utilizes your browser's local storage (chrome.storage.local) for:
+- Location Cache: Temporarily storing public account location information so repetitive network queries are avoided.
+- Filter Preferences: Saving your selected whitelist/blacklist rules, target countries, and display settings.
+
+This data never leaves your computer and can be cleared at any time by clicking "Clear Cache" in the extension popup or by uninstalling the extension.
+
+3. Permissions and Justifications
+- storage: Required exclusively to save your local filter preferences and location cache locally on your machine.
+- https://x.com/* & https://twitter.com/*: Required to inject location badges into X (Twitter) feeds, profile headers, and user hover cards, and to query public location details via X's official internal endpoints using your active authenticated session.
+
+4. Payment Processing (Pro Subscriptions)
+If you choose to purchase or subscribe to X Location Badge Pro ($2.99/month or $99 lifetime):
+- Payments are processed securely via ExtensionPay and Stripe.
+- We do not collect, process, or store your credit card numbers, banking info, or financial credentials. All financial transactions occur directly on Stripe's encrypted, PCI-compliant infrastructure.
+- ExtensionPay securely verifies your subscription status using an anonymous user token.
+- Payment data is governed by Stripe's Privacy Policy (https://stripe.com/privacy) and ExtensionPay's Privacy Policy (https://extensionpay.com/privacy).
+
+5. Third-Party Sharing & Data Sale
+We do NOT sell, rent, trade, lease, or monetize your personal data under any circumstances. We do not share data with third-party advertisers or data brokers.
+
+6. Changes to This Policy
+If our privacy practices change, we will update this document and the date above. Continued use of the extension signifies agreement to any revised terms.
+
+7. Contact
+If you have questions or concerns regarding this Privacy Policy, please reach out via the official Chrome Web Store developer support page.
